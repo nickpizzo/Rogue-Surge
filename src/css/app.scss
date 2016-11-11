@@ -1,0 +1,36 @@
+@import 'partials/colors';
+
+body {
+  background: url("../img/bg.png") no-repeat center center fixed;
+}
+
+.container {
+  background-color: $containertheme;
+  max-width: 1120px;
+  margin: 0 auto;
+  height: 100%;
+  position:relative;
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.container:before, .container:after {
+	content:"";
+  position:absolute;
+  z-index:-1;
+  box-shadow:0 0 200px rgba(0,0,0,0.8);
+  top:1px;
+  bottom:1px;
+  left:0;
+  right:0;
+  border-radius:100px / 1px;
+}
+
+@media screen and (max-width: 750px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.test {
+  color: white;
+}
