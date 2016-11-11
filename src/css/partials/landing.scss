@@ -4,18 +4,25 @@
   margin-top: 80px;
 }
 
+.fa-twitter {
+  padding-left: 6px;
+}
 .row-2 {
   font-family: 'Russo One', sans-serif;
   color: $logolightblue;
+
 
   .container-2 {
     margin: 0 4%;
     display:flex;
 
-    .twitter-2 h1 {
-      font-size: 1.4em;
-      margin-top: 25px;
-      margin-bottom: 15px;
+    .twitter-2 {
+      width: 400px;
+        h1 {
+        font-size: 1.4em;
+        margin-top: 25px;
+        margin-bottom: 15px;
+      }
     }
 
     .youtube-2 {

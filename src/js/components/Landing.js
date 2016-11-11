@@ -1,6 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
 import { Link } from 'react-router';
+import FontAwesome from 'react-fontawesome';
 
 import '../../css/partials/landing.scss';
 import '../../css/partials/youtube-player.scss';
@@ -36,6 +37,23 @@ export default class Landing extends Component {
       iframe.setAttribute("allowfullscreen", "1");
       this.parentNode.replaceChild(iframe, this);
     }
+
+		window.twttr = (function(d, s, id) {
+	  	var js, fjs = d.getElementsByTagName(s)[0],
+	    t = window.twttr || {};
+		  if (d.getElementById(id)) return t;
+		  js = d.createElement(s);
+		  js.id = id;
+		  js.src = "https://platform.twitter.com/widgets.js";
+		  fjs.parentNode.insertBefore(js, fjs);
+
+		  t._e = [];
+		  t.ready = function(f) {
+		    t._e.push(f);
+  	};
+	  return t;
+	}(document, "script", "twitter-wjs"));
+
 	}
 
 	render() {
@@ -47,12 +65,17 @@ export default class Landing extends Component {
 						<div className="youtube-2">
 							<h1>WATCH</h1>
 							<div className="video-container">
-								<div className="youtube-player" data-id="2gD6bxcW7X0"></div>
+								<div className="youtube-player" data-id="hCfNy51RrHQ"></div>
 							</div>
 						</div>
 						<div className="twitter-2">
-							<h1>FOLLOW ON</h1>
-							
+							<h1>FOLLOW ON
+								<FontAwesome className='super-crazy-colors'
+									name='twitter'/>
+							</h1>
+							<a className="twitter-timeline" data-height="650" href="https://twitter.com/GoingRogueGG">Tweets by GoingRogueGG</a>
+
+
 						</div>
 					</div>
 				</div>
