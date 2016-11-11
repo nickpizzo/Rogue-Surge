@@ -3075,6 +3075,10 @@ load-json-file@^1.0.0:
     pinkie-promise "^2.0.0"
     strip-bom "^2.0.0"
 
+load-script@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/load-script/-/load-script-1.0.0.tgz#0491939e0bee5643ee494a7e3da3d2bac70c6ca4"
+
 loader-utils@^0.2.11, loader-utils@^0.2.14, loader-utils@^0.2.15, loader-utils@^0.2.3, loader-utils@^0.2.7, loader-utils@~0.2.2, loader-utils@~0.2.5, loader-utils@0.2.x:
   version "0.2.16"
   resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-0.2.16.tgz#f08632066ed8282835dff88dfb52704765adee6d"
@@ -4255,6 +4259,13 @@ react-transform-hmr@^1.0.3:
     global "^4.3.0"
     react-proxy "^1.1.7"
 
+react-youtube:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/react-youtube/-/react-youtube-7.2.0.tgz#31b0c3a41e23b1c31adfb47e3e4cfbab98839d3d"
+  dependencies:
+    lodash.isequal "^4.0.0"
+    youtube-player "^3.0.0"
+
 react@^15.0.2:
   version "15.3.2"
   resolved "https://registry.yarnpkg.com/react/-/react-15.3.2.tgz#a7bccd2fee8af126b0317e222c28d1d54528d09e"
@@ -4606,6 +4617,10 @@ sigmund@~1.0.0:
 signal-exit@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.1.tgz#5a4c884992b63a7acd9badb7894c3ee9cfccad81"
+
+sister@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/sister/-/sister-3.0.0.tgz#88eb57047cb283da1e070b1a7cae8212f3bcb2db"
 
 slash@^1.0.0:
   version "1.0.0"
@@ -5420,4 +5435,12 @@ yauzl@^2.2.1:
   dependencies:
     buffer-crc32 "~0.2.3"
     fd-slicer "~1.0.1"
+
+youtube-player@^3.0.0:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/youtube-player/-/youtube-player-3.0.5.tgz#c98883c29c247caf252deec08e7580b72093f160"
+  dependencies:
+    load-script "^1.0.0"
+    lodash "^4.3.0"
+    sister "^3.0.0"
 

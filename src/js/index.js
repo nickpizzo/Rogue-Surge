@@ -9,8 +9,7 @@ ReactDOM.render(
   <Router history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Landing}/>
-      <Route path="/overwatch" component={Overwatch} />
-      <Route path="/csgo" component={csgo} />
+
 
     </Route>
 

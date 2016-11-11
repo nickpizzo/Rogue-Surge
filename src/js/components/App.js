@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Nav from './Nav';
 
 import '../../css/partials/reset.scss';
+import '../../css/app.scss';
 
 var App = (props) => {
   return (
