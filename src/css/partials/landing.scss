@@ -1,37 +1,41 @@
 @import 'colors';
 
+.spacer {
+  width: 35px;
+}
+
 .slider-wrapper {
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 .fa-twitter {
-  padding-left: 6px;
+  padding-left: 3px;
 }
-.row-2 {
+
+.container-2 {
+  margin: 0 4%;
   font-family: 'Russo One', sans-serif;
   color: $logolightblue;
 
+  h1 {
+    font-size: 1.4em;
+    margin-top: 45px;
+    margin-bottom: 25px;
+  }
 
-  .container-2 {
-    margin: 0 4%;
+  .row-2 {
     display:flex;
-
-    .twitter-2 {
-      width: 400px;
-        h1 {
-        font-size: 1.4em;
-        margin-top: 25px;
-        margin-bottom: 15px;
-      }
-    }
 
     .youtube-2 {
       width: 65%;
-      h1 {
-        font-size: 1.4em;
-        margin-top: 25px;
-        margin-bottom: 15px;
-      }
+
+    }
+  }
+
+  .row-3 {
+    display: flex;
+    .video-container2 {
+      width: 34%;
     }
   }
 }

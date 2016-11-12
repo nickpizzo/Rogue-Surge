@@ -9,11 +9,10 @@ import '../../css/partials/youtube-player.scss';
 import Slider from './Slider'
 
 export default class Landing extends Component {
-	componentDidMount () {
+	componentWillMount () {
 		document.addEventListener("DOMContentLoaded",
       function() {
-        var div, n,
-            v = document.getElementsByClassName("youtube-player");
+        var div, n, v = document.getElementsByClassName("youtube-player");
         for (n = 0; n < v.length; n++) {
             div = document.createElement("div");
             div.setAttribute("data-id", v[n].dataset.id);
@@ -39,8 +38,8 @@ export default class Landing extends Component {
     }
 
 		window.twttr = (function(d, s, id) {
-	  	var js, fjs = d.getElementsByTagName(s)[0],
-	    t = window.twttr || {};
+		  var js, fjs = d.getElementsByTagName(s)[0],
+		    t = window.twttr || {};
 		  if (d.getElementById(id)) return t;
 		  js = d.createElement(s);
 		  js.id = id;
@@ -50,32 +49,42 @@ export default class Landing extends Component {
 		  t._e = [];
 		  t.ready = function(f) {
 		    t._e.push(f);
-  	};
-	  return t;
-	}(document, "script", "twitter-wjs"));
+		  };
 
+		  return t;
+		}(document, "script", "twitter-wjs"));
 	}
 
 	render() {
 		return (
 			<div>
 				<Slider/>
-				<div className="row-2">
-					<div className="container-2">
+				<div className="container-2">
+					<div className="row-2">
 						<div className="youtube-2">
 							<h1>WATCH</h1>
 							<div className="video-container">
 								<div className="youtube-player" data-id="hCfNy51RrHQ"></div>
 							</div>
 						</div>
+						<div className="spacer"></div>
 						<div className="twitter-2">
-							<h1>FOLLOW ON
-								<FontAwesome className='super-crazy-colors'
-									name='twitter'/>
-							</h1>
-							<a className="twitter-timeline" data-height="650" href="https://twitter.com/GoingRogueGG">Tweets by GoingRogueGG</a>
-
-
+							<h1>FOLLOW ON <FontAwesome name='twitter'/></h1>
+							<a className="twitter-timeline" data-width="380" data-height="363" data-theme="dark" data-link-color="#FAB81E" href="https://twitter.com/GoingRogueGG">Tweets by GoingRogueGG</a>
+						</div>
+					</div>
+					<h1>WATCH MORE</h1>
+					<div className="row-3">
+						<div className="video-container2">
+							<div className="youtube-player" data-id="hCfNy51RrHQ"></div>
+						</div>
+						<div className="spacer"></div>
+						<div className="video-container2">
+							<div className="youtube-player" data-id="hCfNy51RrHQ"></div>
+						</div>
+						<div className="spacer"></div>
+						<div className="video-container2">
+							<div className="youtube-player" data-id="hCfNy51RrHQ"></div>
 						</div>
 					</div>
 				</div>

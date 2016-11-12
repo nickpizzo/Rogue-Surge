@@ -4,6 +4,8 @@ import ImageGallery from 'react-image-gallery';
 
 import 'react-image-gallery/styles/css/image-gallery'
 
+import bannerOne from '../../img/banner-image-1.png';
+
 export default class Slider extends Component {
 
   handleImageLoad(event) {
@@ -14,7 +16,7 @@ export default class Slider extends Component {
 
     const images = [
       {
-        original: 'http://placehold.it/1120x350',
+        original: bannerOne,
         // originalClass: 'featured-slide',
         // thumbnailClass: 'featured-thumb',
         // originalAlt: 'original-alt',
@@ -39,7 +41,8 @@ export default class Slider extends Component {
         <ImageGallery
           ref={i => this._imageGallery = i}
           items={images}
-          slideInterval={3000}
+          autoPlay={true}
+          slideInterval={5000}
           onImageLoad={this.handleImageLoad}
           showFullscreenButton={false}
           showThumbnails={false}/>

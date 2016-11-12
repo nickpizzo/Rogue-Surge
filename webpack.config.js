@@ -27,12 +27,12 @@ var config = {
 		contentBase: './build',
 		historyApiFallback: true,
 		port : serverPort,
-	  	hot: true,
-	  	stats: {
-				colors: true,
-				chunks: false
-			},
-	  	filename: outputFileName
+  	hot: true,
+  	stats: {
+			colors: true,
+			chunks: false
+		},
+  	filename: outputFileName
 	},
 	module : {
 		loaders :[
