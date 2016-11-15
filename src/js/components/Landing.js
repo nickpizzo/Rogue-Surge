@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import { Component } from 'react';
 import { Link } from 'react-router';
 import FontAwesome from 'react-fontawesome';
@@ -6,7 +7,8 @@ import FontAwesome from 'react-fontawesome';
 import '../../css/partials/landing.scss';
 import '../../css/partials/youtube-player.scss';
 
-import Slider from './Slider'
+import Slider from './Slider';
+// import inits from './initLanding';
 
 export default class Landing extends Component {
 	componentWillMount () {
@@ -64,7 +66,7 @@ export default class Landing extends Component {
 						<div className="youtube-2">
 							<h1>WATCH</h1>
 							<div className="video-container">
-								<div className="youtube-player" data-id="hCfNy51RrHQ"></div>
+								<div className="youtube-player" data-id="jsVQV69hF3A"></div>
 							</div>
 						</div>
 						<div className="spacer"></div>
@@ -76,11 +78,11 @@ export default class Landing extends Component {
 					<h1>WATCH MORE</h1>
 					<div className="row-3">
 						<div className="video-container2">
-							<div className="youtube-player" data-id="hCfNy51RrHQ"></div>
+							<div className="youtube-player" data-id="OclYPa6GOKg"></div>
 						</div>
 						<div className="spacer"></div>
 						<div className="video-container2">
-							<div className="youtube-player" data-id="hCfNy51RrHQ"></div>
+							<div className="youtube-player" data-id="IeovWjNYxOA"></div>
 						</div>
 						<div className="spacer"></div>
 						<div className="video-container2">

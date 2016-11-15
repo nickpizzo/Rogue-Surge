@@ -6,7 +6,7 @@ var ExtractPlugin = require('extract-text-webpack-plugin');
 
 var isProduction = process.env.NODE_ENV ? process.env.NODE_ENV.trim() == 'production' : false
 var extractCSS = false
-var serverPort = 8080
+var serverPort = 3000
 var outputPath = path.join(__dirname, 'build')
 var outputFileName = 'bundle.js'
 ;

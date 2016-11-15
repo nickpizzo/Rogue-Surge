@@ -8,7 +8,7 @@ import csgoLogo from '../../img/csgo-logo.svg';
 import rogueTwitch from '../../img/rogue-twitch.svg';
 import rogueStore from '../../img/rogue-store.svg';
 
-var twitchStyle = {width:"110px"};
+var twitchStyle = {width:"105px"};
 var storeStyle = {width:"80px"};
 
 export default class Nav extends Component {
