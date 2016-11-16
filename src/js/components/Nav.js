@@ -1,7 +1,9 @@
 import React from 'react';
 import { Component } from 'react';
 import { Link } from 'react-router';
+
 import '../../css/partials/nav.scss';
+
 import mainLogo from '../../img/rogue-logo.svg';
 import overwatchLogo from '../../img/overwatch-logo.svg';
 import csgoLogo from '../../img/csgo-logo.svg';

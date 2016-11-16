@@ -1,4 +1,4 @@
-@import 'partials/colors';
+@import 'partials/variables';
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css');
 
 body {
@@ -32,6 +32,7 @@ body {
   }
 }
 
-.test {
+.red {
+  margin-top: 50px;
   color: white;
 }

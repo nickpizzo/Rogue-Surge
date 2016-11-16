@@ -1,11 +1,11 @@
-@import 'colors';
+@import 'variables';
 
 .spacer {
   width: 35px;
 }
 
 .slider-wrapper {
-  margin-top: 70px;
+  margin-top: $header-clear;
 }
 
 .fa-twitter {
@@ -18,7 +18,7 @@
   color: $logolightblue;
 
   h1 {
-    font-size: 1.4em;
+    font-size: $section-title-text;
     margin-top: 45px;
     margin-bottom: 25px;
   }
@@ -28,7 +28,6 @@
 
     .youtube-2 {
       width: 65%;
-
     }
   }
 

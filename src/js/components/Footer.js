@@ -10,10 +10,10 @@ export default class Footer extends Component {
 			<footer className="container-2">
         <div className="footer-content">
           <div className="footer-icons">
-            <FontAwesome className='icon-item' size='2x' name='facebook-official'/>
-            <FontAwesome className='icon-item' size='2x' name='twitch'/>
-            <FontAwesome className='icon-item' size='2x' name='instagram'/>
-            <FontAwesome className='icon-item' size='2x' name='twitter'/>
+            <FontAwesome className='footer-icon' size='2x' name='facebook-official'/>
+            <FontAwesome className='footer-icon' size='2x' name='twitch'/>
+            <FontAwesome className='footer-icon' size='2x' name='instagram'/>
+            <FontAwesome className='footer-icon' size='2x' name='twitter'/>
           </div>
           <div className="footer-contact">CONTACT</div>
         </div>

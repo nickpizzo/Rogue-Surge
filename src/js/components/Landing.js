@@ -4,11 +4,11 @@ import { Component } from 'react';
 import { Link } from 'react-router';
 import FontAwesome from 'react-fontawesome';
 
-import '../../css/partials/landing.scss';
-import '../../css/partials/youtube-player.scss';
-
 import Slider from './Slider';
 // import inits from './initLanding';
+
+import '../../css/partials/landing.scss';
+import '../../css/partials/youtube-player.scss';
 
 export default class Landing extends Component {
 	componentWillMount () {
