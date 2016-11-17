@@ -4,9 +4,8 @@ import { Component } from 'react';
 import { Link } from 'react-router';
 import FontAwesome from 'react-fontawesome';
 
-import Slider from './Slider';
+import LandingSlider from './Slider';
 import YoutubePlayer from './YoutubePlayer';
-// import inits from './initLanding';
 
 import '../../css/partials/landing.scss';
 import '../../css/partials/youtube-player.scss';
@@ -19,13 +18,13 @@ export default class Landing extends Component {
 	render() {
 		return (
 			<div>
-				<Slider/>
+				<LandingSlider/>
 				<div className="container-2">
 					<div className="row-2">
 						<div className="youtube-2">
 							<h1>WATCH ON <FontAwesome name='youtube'/></h1>
 							<div className="video-container">
-								<YoutubePlayer videoId='jsVQV69hF3A' />
+								<YoutubePlayer videoId="jsVQV69hF3A" />
 							</div>
 						</div>
 						<div className="spacer"></div>
