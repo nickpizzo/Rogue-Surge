@@ -16,8 +16,17 @@ export default class Overwatch extends Component {
 	render() {
 		return (
 			<div className="team-container">
-				<h1>Team Overwatch</h1>
-				<PlayerCard  playerImage={mbignet} playerName='Michael BIGNET' playerTwitter='@bignet' playerTwitch='bignet'/>
+				<h1>TEAM OVERWATCH</h1>
+				<div className="overwatch-row-1">
+					<PlayerCard  playerImage={mbignet} playerName='Michael BIGNET' playerTwitter='bignet' playerTwitch='bignet'/>
+					<PlayerCard  playerImage={mbignet} playerName='Michael BIGNET' playerTwitter='bignet' playerTwitch='bignet'/>
+					<PlayerCard  playerImage={mbignet} playerName='Michael BIGNET' playerTwitter='bignet' playerTwitch='bignet'/>
+				</div>
+				<div className="overwatch-row-2">
+					<PlayerCard  playerImage={mbignet} playerName='Michael BIGNET' playerTwitter='bignet' playerTwitch='bignet'/>
+					<PlayerCard  playerImage={mbignet} playerName='Michael BIGNET' playerTwitter='bignet' playerTwitch='bignet'/>
+					<PlayerCard  playerImage={mbignet} playerName='Michael BIGNET' playerTwitter='bignet' playerTwitch='bignet'/>
+				</div>
 
 
 			</div>

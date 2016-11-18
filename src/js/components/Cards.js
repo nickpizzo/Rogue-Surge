@@ -11,8 +11,7 @@ export class PlayerCard extends Component {
         <img className="player-image" src={this.props.playerImage} />
         <div className="player-name">{this.props.playerName}</div>
         <div className="player-twitter">
-					<FontAwesome name='twitter'/>
-					{this.props.playerTwitter}
+					<a target="_blank" href={`https://twitter.com/${this.props.playerTwitter}`}>@{this.props.playerTwitter}</a>
 				</div>
         <div className="player-twitch">
 					<FontAwesome name='twitch'/>

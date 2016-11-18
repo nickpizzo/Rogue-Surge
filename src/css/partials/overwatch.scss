@@ -5,8 +5,16 @@
   margin-left: 12%;
   margin-right: 12%;
   color: white;
-  text-transform: uppercase;
   font-family: 'Russo One', sans-serif;
   color: $logolightblue;
   font-size: $section-title-text;
+
+  h1 {
+    margin-bottom: $section-title-clear-bottom;
+  }
+}
+
+.overwatch-row-1, .overwatch-row-2 {
+  display: flex;
+  justify-content: space-between;
 }

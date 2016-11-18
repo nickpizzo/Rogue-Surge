@@ -22,9 +22,9 @@ export default class Landing extends Component {
 				<div className="container-2">
 					<div className="row-2">
 						<div className="youtube-2">
-							<h1>WATCH ON <FontAwesome name='youtube'/></h1>
+							<h1>WATCH</h1>
 							<div className="video-container">
-								<YoutubePlayer videoId="jsVQV69hF3A" />
+								<YoutubePlayer videoId="hCfNy51RrHQ" />
 							</div>
 						</div>
 						<div className="spacer"></div>
@@ -44,7 +44,7 @@ export default class Landing extends Component {
 						</div>
 						<div className="spacer"></div>
 						<div className="video-container2">
-							<YoutubePlayer videoId='hCfNy51RrHQ' />
+							<YoutubePlayer videoId='I540K5OFNCs' />
 						</div>
 					</div>
 				</div>

@@ -24,7 +24,7 @@
   h1 {
     font-size: $section-title-text;
     margin-top: 45px;
-    margin-bottom: 25px;
+    margin-bottom: $section-title-clear-bottom;
   }
 
   .row-2 {
