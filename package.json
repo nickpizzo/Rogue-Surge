@@ -35,6 +35,8 @@
     "webpack-fail-plugin": "^1.0.4"
   },
   "dependencies": {
-    "react-image-gallery": "^0.7.3"
+    "react-burger-menu": "^1.10.9",
+    "react-image-gallery": "^0.7.3",
+    "react-sidebar": "^2.2.1"
   }
 }

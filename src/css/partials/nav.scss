@@ -20,9 +20,8 @@ header {
     li {
       padding:0 21px;
       border-left: 1px solid white;
-      height: 30px;
       transform: skewX(-25deg);
-      height: 110px;
+      height: $navbar-height;
       text-transform: uppercase;
       display: inline-block;
 
@@ -37,18 +36,86 @@ header {
         img.overwatch-logo {
           width: 150px;
         }
-
         img.csgo-logo {
           width: 90px;
-
+        }
+        img.twitch-logo {
+          width: 100px;
+        }
+        img.store-logo {
+          width: 80px;
         }
       }
     }
   }
 }
 
-@media screen and (max-width: 750px) {
-  .container {
-    width: 100%;
+// Mobile Nav Styles
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+}
+.bm-burger-bars {
+  background: white;
+}
+.bm-cross-button {
+  height: 35px;
+  width: 35px;
+  button {
+    cursor: pointer;
+  }
+}
+.bm-cross {
+  background: #bdc3c7;
+  cursor: pointer;
+}
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+.bm-morph-shape {
+  fill: #373a47;
+}
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+.bm-over-lay {
+background: rgba(0, 0, 0, 0.3);
+}
+.bm-menu-wrap {
+  position: absolute;
+}
+.mobile-nav-item {
+  text-decoration: none;
+  color: $logolightblue;
+}
+.mobile-nav {
+  display: none;
+}
+
+@media screen and (max-width: 840px) {
+  .mobile-nav {
+    display: inline;
+  }
+  header {
+    ul {
+      li {
+        height: $navbar-height;
+        border-left: none;
+        a {
+          img {
+            display: none;
+          }
+        }
+      }
+    }
+
+
   }
 }
