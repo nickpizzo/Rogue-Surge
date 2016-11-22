@@ -3,6 +3,9 @@ import { Link } from 'react-router';
 import { stack as Menu } from 'react-burger-menu';
 import Radium from 'radium';
 
+import owSmall from '../../img/overwatch-small-logo.svg';
+import csgoSmall from '../../img/csgo-small-logo.svg';
+
 let RadiumLink = Radium(Link);
 
 export default class MobileNav extends Component {
@@ -16,19 +19,34 @@ export default class MobileNav extends Component {
 
   render () {
     return (
-      // <Menu right isOpen={this.state.isOpen}>
-      <Menu right isOpen={true}>
-        <RadiumLink onClick={this.closeMobileNav} className="menu-item" to="/">Home</RadiumLink>
+      <Menu right isOpen={this.state.isOpen}>
+        <RadiumLink onClick={this.closeMobileNav} className="menu-item" to="/">
+          Home
+        </RadiumLink>
         <hr/>
-        <RadiumLink className="menu-item" style={{cursor: 'auto'}}>Teams:</RadiumLink>
-        <RadiumLink onClick={this.closeMobileNav} className="menu-item" to="/overwatch">Overwatch</RadiumLink>
-        <RadiumLink onClick={this.closeMobileNav} className="menu-item" to="/overwatch">CS:GO</RadiumLink>
+        <RadiumLink className="menu-item" style={{cursor: 'auto'}}>
+          Teams:
+        </RadiumLink>
+        <RadiumLink onClick={this.closeMobileNav} className="menu-item" to="/overwatch" style={{color: '#e7e7e7'}}>
+          <img style={{color: 'white', margin: '0 10px', width: '20px', }} src={owSmall}/>
+          Overwatch
+        </RadiumLink>
+        <RadiumLink onClick={this.closeMobileNav} className="menu-item" to="/overwatch" style={{color: '#e7e7e7'}}>
+          <img style={{color: 'white', margin: '0 10px', width: '16px'}} src={csgoSmall}/>
+          CS:GO
+        </RadiumLink>
         <hr/>
-        <RadiumLink onClick={this.closeMobileNav} className="menu-item" to="/overwatch">Ownership & Management</RadiumLink>
+        <RadiumLink onClick={this.closeMobileNav} className="menu-item" to="/overwatch">
+          Ownership & Management
+        </RadiumLink>
         <hr/>
-        <RadiumLink onClick={this.closeMobileNav} className="menu-item" to="/overwatch">Rogue Twitch</RadiumLink>
+        <RadiumLink onClick={this.closeMobileNav} className="menu-item" to="/overwatch">
+          Rogue Twitch
+        </RadiumLink>
         <hr/>
-        <RadiumLink onClick={this.closeMobileNav} className="menu-item" to="/overwatch">Rogue Store</RadiumLink>
+        <RadiumLink onClick={this.closeMobileNav} className="menu-item" to="/overwatch">
+          Rogue Store
+        </RadiumLink>
       </Menu>
     );
   }

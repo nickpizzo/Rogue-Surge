@@ -18,6 +18,7 @@
 .overwatch-row-1, .overwatch-row-2 {
   display: flex;
   justify-content: space-between;
+
 }
 
 .overwatch-row-2 {
@@ -30,6 +31,9 @@
     margin: inherit;
   }
 
+  .overwatch-row-2 {
+    margin-top: 0;
+  }
 
   .team-container {
     margin-top: 50px;

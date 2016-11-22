@@ -82,6 +82,7 @@ header {
   overflow-y: hidden;
 
   .menu-item {
+    display: inline;
     text-decoration: none;
     color: white;
     color: $logolightblue;

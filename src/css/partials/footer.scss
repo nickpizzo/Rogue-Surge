@@ -4,7 +4,7 @@
   margin: 60px 40px 50px 0;
   color: white;
   &:hover {
-    color: #b6b6b6;
+    color: #989898;
     //  background: -webkit-gradient(linear, left center, right center, from(#40c9ed), to(#a5daee));
     // -webkit-background-clip: text;
     // -webkit-text-fill-color: transparent;
@@ -16,15 +16,16 @@
   display: flex;
   justify-content: space-between;
 
+
   .footer-contact {
     display: flex;
     align-items: center;
     text-decoration: none;
     color: white;
-
     &:hover {
-      color: $logolightblue;
+      color: #989898;
     }
+
   }
 }
 
