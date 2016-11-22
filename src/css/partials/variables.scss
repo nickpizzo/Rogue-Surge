@@ -6,7 +6,23 @@ $logodarkorange: #F38231;
 $containertheme: #191919;
 
 // Other
+$primary-break: 840px;
 $header-clear: 70px;
 $section-title-clear-bottom: 25px;
 $section-title-text: 1.4em;
 $navbar-height: 110px;
+
+// Slider
+$slick-font-path: "./fonts/" !default;
+$slick-font-family: "slick" !default;
+$slick-loader-path: "./" !default;
+$slick-arrow-color: white !default;
+$slick-dot-color: white !default;
+$slick-dot-color-active: $slick-dot-color !default;
+$slick-prev-character: "\2190" !default;
+$slick-next-character: "\2192" !default;
+$slick-dot-character: "\2022" !default;
+$slick-dot-size: 10px !default;
+$slick-opacity-default: 0.75 !default;
+$slick-opacity-on-hover: 1 !default;
+$slick-opacity-not-active: 0.25 !default;

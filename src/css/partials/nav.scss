@@ -53,7 +53,7 @@ header {
 // Mobile Nav Styles
 
 .bm-burger-button {
-  position: fixed;
+  position: absolute;
   width: 36px;
   height: 30px;
   right: 36px;
@@ -77,6 +77,7 @@ header {
   background: #373a47;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
+  overflow-y: hidden;
 }
 .bm-morph-shape {
   fill: #373a47;
@@ -84,6 +85,7 @@ header {
 .bm-item-list {
   color: #b8b7ad;
   padding: 0.8em;
+  height: auto !important;
 }
 .bm-over-lay {
 background: rgba(0, 0, 0, 0.3);
@@ -99,11 +101,15 @@ background: rgba(0, 0, 0, 0.3);
   display: none;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: $primary-break) {
   .mobile-nav {
     display: inline;
   }
   header {
+    .logo {
+      width: 130px;
+    }
+
     ul {
       li {
         height: $navbar-height;
@@ -115,7 +121,5 @@ background: rgba(0, 0, 0, 0.3);
         }
       }
     }
-
-
   }
 }

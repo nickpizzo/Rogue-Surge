@@ -5,6 +5,7 @@ import { Link } from 'react-router';
 import FontAwesome from 'react-fontawesome';
 
 import LandingSlider from './Slider';
+
 import YoutubePlayer from './YoutubePlayer';
 
 import '../../css/partials/landing.scss';
