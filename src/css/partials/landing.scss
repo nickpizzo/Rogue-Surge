@@ -1,19 +1,11 @@
 @import 'variables';
 
-.spacer {
-  width: 35px;
-}
-
 .slider-wrapper {
   margin-top: $header-clear;
 }
 
 .fa-twitter {
   padding-left: 3px;
-}
-
-.video-container {
-  height: 360px;
 }
 
 .container-2 {
@@ -26,44 +18,10 @@
     margin-top: 65px;
     margin-bottom: $section-title-clear-bottom;
   }
-
-  .row-2 {
-    display:flex;
-
-    .youtube-2 {
-      width: 65%;
-    }
-  }
-
-  .row-3 {
-    display: flex;
-    .video-container2 {
-      width: 34%;
-
-    }
-  }
-
-
 }
 
-@media screen and (max-width: $primary-break) {
+@media screen and (max-width: $main-break) {
   .container-2 h1 { margin-top: 65px; }
   .slider-wrapper { margin-top: 35px;}
-  .container-2 {
-    .row-2 {
-      display: block;
-      .youtube-2 {
-        width: 100%;
-      }
-    }
-    .row-3 {
-      display: block;
-    }
-  }
-  iframe {
-    width: 100% !important;
-  }
 
-  .video-container {
-  }
 }

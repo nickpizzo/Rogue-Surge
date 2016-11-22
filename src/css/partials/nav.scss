@@ -113,7 +113,7 @@ background: rgba(0, 0, 0, 0.3);
   display: none;
 }
 
-@media screen and (max-width: $primary-break) {
+@media screen and (max-width: $main-break) {
   .mobile-nav {
     display: inline;
   }

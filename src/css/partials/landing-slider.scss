@@ -9,6 +9,7 @@
   padding: 0;
   margin: 0;
   width: 100%;
+  z-index: 1;
 
   li {
     position: relative;
@@ -66,7 +67,7 @@
   }
 }
 
-@media screen and (max-width: $primary-break) {
+@media screen and (max-width: $main-break) {
 
     .slick-arrow {
       visibility: hidden;

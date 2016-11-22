@@ -16,7 +16,8 @@ export default class YoutubePlayer extends Component {
 		if (playing) return (
 			<iframe src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
 				frameBorder='0'
-				allowFullScreen='1' style={{width: '100%', height: '100%'}}/>
+				allowFullScreen='1'
+				style={{width: '100%', height: '100%'}}/>
 		)
 
     return (

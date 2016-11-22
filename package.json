@@ -35,6 +35,7 @@
     "webpack-fail-plugin": "^1.0.4"
   },
   "dependencies": {
-    "react-burger-menu": "^1.10.9"
+    "react-burger-menu": "^1.10.9",
+    "react-flexgrid": "^0.8.0"
   }
 }

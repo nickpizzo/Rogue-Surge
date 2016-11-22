@@ -18,14 +18,13 @@
 .overwatch-row-1, .overwatch-row-2 {
   display: flex;
   justify-content: space-between;
-
 }
 
 .overwatch-row-2 {
   margin-top: 45px;
 }
 
-@media screen and (max-width: $primary-break) {
+@media screen and (max-width: $main-break) {
   .overwatch-row-1, .overwatch-row-2 {
     display: block;
     margin: inherit;
