@@ -18,17 +18,15 @@ export default class Overwatch extends Component {
 			<div className="team-container">
 				<h1>TEAM OVERWATCH</h1>
 				<div className="overwatch-row-1">
-					<PlayerCard  playerImage={mbignet} playerName='Michael BIGNET' playerTwitter='bignet' playerTwitch='bignet'/>
-					<PlayerCard  playerImage={mbignet} playerName='Michael BIGNET' playerTwitter='bignet' playerTwitch='bignet'/>
-					<PlayerCard  playerImage={mbignet} playerName='Michael BIGNET' playerTwitter='bignet' playerTwitch='bignet'/>
+					<PlayerCard  playerImage={mbignet} playerName='Michael Bignet' playerTwitter='Rogue_winz' playerTwitch='bignet'/>
+					<PlayerCard  playerImage={dbignet} playerName='Dylan Bignet' playerTwitter='bignet' playerTwitch='bignet'/>
+					<PlayerCard  playerImage={jlarsson} playerName='Jonathan Larsson' playerTwitter='bignet' playerTwitch='bignet'/>
 				</div>
 				<div className="overwatch-row-2">
-					<PlayerCard  playerImage={mbignet} playerName='Michael BIGNET' playerTwitter='bignet' playerTwitch='bignet'/>
-					<PlayerCard  playerImage={mbignet} playerName='Michael BIGNET' playerTwitter='bignet' playerTwitch='bignet'/>
-					<PlayerCard  playerImage={mbignet} playerName='Michael BIGNET' playerTwitter='bignet' playerTwitch='bignet'/>
+					<PlayerCard  playerImage={klindstrom} playerName='Kevin Lindström' playerTwitter='bignet' playerTwitch='bignet'/>
+					<PlayerCard  playerImage={bchavasson} playerName='Benjamin Chevasson' playerTwitter='bignet' playerTwitch='bignet'/>
+					<PlayerCard  playerImage={jlboyer} playerName='Jean-Louis Boyer' playerTwitter='bignet' playerTwitch='bignet'/>
 				</div>
-
-
 			</div>
 		)
 	}

@@ -38,8 +38,8 @@ export default class LandingSlider extends Component {
           <a href="http://mashable.com/2016/08/22/overwatch-atlantic-showdown-champions/#o64cvkrn75qE">
             <img style={{width: '100%'}} src={bannerOne}/>
           </a>
-          <img src="http://placehold.it/1120x450"/>
-          <img src="http://placehold.it/1120x450"/>
+          <img src="http://placehold.it/1120x350"/>
+          <img src="http://placehold.it/1120x350"/>
 
         </Slider>
       </div>

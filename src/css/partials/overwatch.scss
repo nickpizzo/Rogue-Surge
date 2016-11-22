@@ -11,10 +11,31 @@
 
   h1 {
     margin-bottom: $section-title-clear-bottom;
+    text-align: left;
   }
 }
 
 .overwatch-row-1, .overwatch-row-2 {
   display: flex;
   justify-content: space-between;
+}
+
+.overwatch-row-2 {
+  margin-top: 45px;
+}
+
+@media screen and (max-width: $primary-break) {
+  .overwatch-row-1, .overwatch-row-2 {
+    display: block;
+    margin: inherit;
+  }
+
+
+  .team-container {
+    margin-top: 50px;
+    h1 {
+      margin-bottom: $section-title-clear-bottom;
+      text-align: center;
+    }
+  }
 }

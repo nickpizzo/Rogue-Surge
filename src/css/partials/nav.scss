@@ -72,12 +72,22 @@ header {
 .bm-cross {
   background: #bdc3c7;
   cursor: pointer;
+
 }
 .bm-menu {
+  font-family: 'Russo One', sans-serif;
   background: #373a47;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
   overflow-y: hidden;
+
+  .menu-item {
+    text-decoration: none;
+    color: white;
+    color: $logolightblue;
+    padding: 19px 0;
+    cursor: pointer;
+  }
 }
 .bm-morph-shape {
   fill: #373a47;
@@ -86,6 +96,7 @@ header {
   color: #b8b7ad;
   padding: 0.8em;
   height: auto !important;
+  padding: 0 !important;
 }
 .bm-over-lay {
 background: rgba(0, 0, 0, 0.3);
@@ -108,6 +119,7 @@ background: rgba(0, 0, 0, 0.3);
   header {
     .logo {
       width: 130px;
+      left: -3px;
     }
 
     ul {
@@ -120,6 +132,15 @@ background: rgba(0, 0, 0, 0.3);
           }
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 520px) {
+  header {
+    .logo {
+      width: 120px;
+      left: -15px;
     }
   }
 }

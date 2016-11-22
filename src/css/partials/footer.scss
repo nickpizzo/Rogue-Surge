@@ -2,6 +2,13 @@
 
 .footer-icon {
   margin: 60px 40px 50px 0;
+  color: white;
+  &:hover {
+    color: #b6b6b6;
+    //  background: -webkit-gradient(linear, left center, right center, from(#40c9ed), to(#a5daee));
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
+  }
 }
 
 .footer-content {
@@ -14,6 +21,10 @@
     align-items: center;
     text-decoration: none;
     color: white;
+
+    &:hover {
+      color: $logolightblue;
+    }
   }
 }
 
@@ -30,7 +41,7 @@
   z-index: 2;
 
   .modal {
-  	width: 50%;
+  	width: 40%;
   	background: black;
   	padding: 40px;
     border: 2px solid #888;
@@ -61,15 +72,26 @@
 
 @media screen and (max-width: $primary-break) {
   .footer-icon {
-    margin: 50px 30px 40px 0;
+    margin: 50px 30px 50px 0;
   }
 
   #modal-container {
-    
     .modal {
       font-size: 1.2em;
+      width: 70%;
     }
   }
+}
 
+@media screen and (max-width: $secondary-break) {
+  .footer-icon {
+    margin: 50px 20px 50px 0;
+  }
 
+  #modal-container {
+    .modal {
+      font-size: 1.2em;
+      width: 70%;
+    }
+  }
 }
