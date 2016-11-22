@@ -1,3 +1,9 @@
+@import 'variables';
+
+.footer-icon {
+  margin: 60px 40px 50px 0;
+}
+
 .footer-content {
   color: white;
   display: flex;
@@ -6,9 +12,64 @@
   .footer-contact {
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: white;
   }
 }
 
-.footer-icon {
-  margin: 60px 40px 50px 0;
+#modal-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+	justify-content: center;
+	align-items: center;
+	display: flex;
+  z-index: 2;
+
+  .modal {
+  	width: 50%;
+  	background: black;
+  	padding: 40px;
+    border: 2px solid #888;
+  	display: flex;
+    justify-content: inherit;
+    color: white;
+    font-size: 1.5em;
+    align-items: center;
+
+    a {
+      color: $logolightblue;
+      flex-grow: 2;
+    }
+  }
+
+  &:not(:target) {
+    opacity: 0;
+  	visibility: hidden;
+  	transition: opacity 1s, visibility 1s;
+  }
+
+  &target {
+    opacity: 1;
+  	visibility: visible;
+  	transition: opacity 1s, visibility 1s;
+  }
+}
+
+@media screen and (max-width: $primary-break) {
+  .footer-icon {
+    margin: 50px 30px 40px 0;
+  }
+
+  #modal-container {
+    
+    .modal {
+      font-size: 1.2em;
+    }
+  }
+
+
 }
