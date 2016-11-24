@@ -16,6 +16,7 @@ header {
   ul {
     display: flex;
     padding-right: 20px;
+    z-index: 1;
 
     li {
       padding:0 21px;
@@ -30,7 +31,7 @@ header {
         transform: skewX(25deg);
         align-items: center;
         height: 100%;
-        width: 100%;
+
         line-height: 20px;
 
         img.overwatch-logo {
@@ -64,7 +65,7 @@ header {
     color: white;
     border: none;
     cursor: pointer;
-    padding: 0 12px;
+    padding: 0 25px;
 
   }
 }
@@ -73,15 +74,17 @@ header {
     display: none;
     position: absolute;
     top: 110px;
-
+    left: 32px;
     transform: skewX(25deg);
     a {
-      padding: 15px 0;
+      padding: 25px 14px;
     }
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+    background-color: #373A46;
+    border: 2px solid white;
 }
 
 // Mobile Nav Styles
@@ -158,6 +161,7 @@ background: rgba(0, 0, 0, 0.3);
     }
 
     ul {
+
       li {
         height: $navbar-height;
         border-left: none;
@@ -165,6 +169,9 @@ background: rgba(0, 0, 0, 0.3);
           img {
             display: none;
           }
+        }
+        button {
+          display: none;
         }
       }
     }
