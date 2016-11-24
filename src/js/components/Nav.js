@@ -12,6 +12,7 @@ import overwatchLogo from '../../img/overwatch-logo.svg';
 import csgoLogo from '../../img/csgo-logo.svg';
 import rogueTwitch from '../../img/rogue-twitch.svg';
 import rogueStore from '../../img/rogue-store.svg';
+import ownership from '../../img/ownership.svg';
 
 export default class Nav extends Component {
 
@@ -27,9 +28,9 @@ export default class Nav extends Component {
 								<Link to="/csgo" style={{transform: 'none'}}><img src={csgoLogo} className="csgo-logo"/></Link>
 							</div>
 						</li>
-
-            <li><Link to="/link2"><img src={rogueTwitch} className="twitch-logo" /></Link></li>
-            <li><Link to="/link2"><img src={rogueStore} className="store-logo" /></Link></li>
+						<li><Link to="/ownership"><img src={ownership} className="ownership-logo" /></Link></li>
+            <li><a href="https://www.twitch.tv/team/rogue" target="_blank"><img src={rogueTwitch} className="twitch-logo" /></a></li>
+            <li><a href="http://www.rogue.gg/merchandise/" target="_blank"><img src={rogueStore} className="store-logo" /></a></li>
           </ul>
 					<div className="mobile-nav">
 						<MobileNav />

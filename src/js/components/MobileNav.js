@@ -40,13 +40,13 @@ export default class MobileNav extends Component {
           Ownership & Management
         </RadiumLink>
         <hr/>
-        <RadiumLink onClick={this.closeMobileNav} className="menu-item" to="/overwatch">
+        <a href="https://www.twitch.tv/team/rogue" target="_blank" onClick={this.closeMobileNav} className="menu-item" to="/overwatch">
           Rogue Twitch
-        </RadiumLink>
+        </a>
         <hr/>
-        <RadiumLink onClick={this.closeMobileNav} className="menu-item" to="/overwatch">
+        <a href="http://www.rogue.gg/merchandise/" target="_blank" onClick={this.closeMobileNav} className="menu-item" to="/overwatch">
           Rogue Store
-        </RadiumLink>
+        </a>
       </Menu>
     );
   }
