@@ -23,7 +23,7 @@ header {
       transform: skewX(-25deg);
       height: $navbar-height;
       text-transform: uppercase;
-      display: inline-block;
+
 
       a {
         display: flex;
@@ -48,6 +48,40 @@ header {
       }
     }
   }
+}
+
+// Dropdown Nav styles
+
+.dropdown {
+  position: relative;
+  display: flex !important;
+  align-items: center;
+  button {
+    transform: skewX(25deg);
+    background-color: #191919;
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.3em;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0 12px;
+
+  }
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 110px;
+
+    transform: skewX(25deg);
+    a {
+      padding: 15px 0;
+    }
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 // Mobile Nav Styles

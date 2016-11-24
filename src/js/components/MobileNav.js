@@ -31,12 +31,12 @@ export default class MobileNav extends Component {
           <img style={{color: 'white', margin: '0 10px', width: '20px', }} src={owSmall}/>
           Overwatch
         </RadiumLink>
-        <RadiumLink onClick={this.closeMobileNav} className="menu-item" to="/overwatch" style={{color: '#e7e7e7'}}>
+        <RadiumLink onClick={this.closeMobileNav} className="menu-item" to="/csgo" style={{color: '#e7e7e7'}}>
           <img style={{color: 'white', margin: '0 10px', width: '16px'}} src={csgoSmall}/>
           CS:GO
         </RadiumLink>
         <hr/>
-        <RadiumLink onClick={this.closeMobileNav} className="menu-item" to="/overwatch">
+        <RadiumLink onClick={this.closeMobileNav} className="menu-item" to="/ownership">
           Ownership & Management
         </RadiumLink>
         <hr/>

@@ -6,6 +6,7 @@ import App from './components/App'
 import Landing from "./components/Landing";
 import Overwatch from "./components/Overwatch";
 import Csgo from "./components/Csgo";
+import Ownership from "./components/Ownership";
 
 ReactDOM.render(
   <Router history={browserHistory}>
@@ -13,6 +14,7 @@ ReactDOM.render(
       <IndexRoute component={Landing}/>
       <Route path="/overwatch" component={Overwatch}/>
       <Route path="/csgo" component={Csgo}/>
+      <Route path="/ownership" component={Ownership}/>
 
     </Route>
 

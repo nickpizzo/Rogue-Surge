@@ -25,7 +25,7 @@ export default class Landing extends Component {
 					<div className="grid">
 						<Grid>
 		          <Row>
-		            <Col xs={12} md={8}><h1>WATCH</h1><YoutubePlayer videoId="hCfNy51RrHQ" /></Col>
+		            <Col xs={12} md={8}><h1>WATCH</h1><YoutubePlayer videoId="I540K5OFNCs" /></Col>
 		            <Col xs={12} md={4}>
 									<h1>FOLLOW ON <FontAwesome name='twitter'/></h1>
 									<div className="twitter-2" ref={(ref) => this.twitter=ref}>
@@ -36,7 +36,7 @@ export default class Landing extends Component {
 							<Row>
 		            <Col xs={12} md={4}><h1>WATCH MORE</h1><YoutubePlayer videoId='OclYPa6GOKg' /></Col>
 		            <Col xs={12} md={4}><h1>&nbsp;</h1><YoutubePlayer videoId='IeovWjNYxOA' /></Col>
-								<Col xs={12} md={4}><h1>&nbsp;</h1><YoutubePlayer videoId='I540K5OFNCs' /></Col>
+								<Col xs={12} md={4}><h1>&nbsp;</h1><YoutubePlayer videoId='hCfNy51RrHQ' /></Col>
 		          </Row>
 		        </Grid>
 					</div>
