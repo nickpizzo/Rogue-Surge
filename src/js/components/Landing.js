@@ -10,7 +10,7 @@ import YoutubePlayer from './YoutubePlayer';
 
 import '../../css/partials/landing.scss';
 import '../../css/partials/youtube-player.scss';
-import 'react-flexgrid/lib/flexgrid.scss';
+import '../../css/partials/flexgrid.scss';
 
 export default class Landing extends Component {
 	componentDidMount () {
