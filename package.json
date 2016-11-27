@@ -5,6 +5,7 @@
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
     "build": "npm run clean && npm run build:webpack",
     "start": "node devServer.js",
+    "deploy": "npm run build && cd dist && surge --domain roguegg-temp-url.surge.sh",
     "lint": "eslint src"
   },
   "devDependencies": {
