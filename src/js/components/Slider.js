@@ -35,11 +35,13 @@ export default class LandingSlider extends Component {
     return (
       <div className="slider-wrapper">
         <Slider {...settings} >
-          <a href="http://mashable.com/2016/08/22/overwatch-atlantic-showdown-champions/#o64cvkrn75qE">
-            <img style={{width: '100%'}} src={bannerOne}/>
+          <a target="_blank" href="http://mashable.com/2016/08/22/overwatch-atlantic-showdown-champions/#o64cvkrn75qE">
+            <img style={{width: '100%'}} src="http://i.imgur.com/bFP85w9.jpg"/>
           </a>
-          <img src="http://placehold.it/1120x350"/>
-          <img src="http://placehold.it/1120x350"/>
+          <a target="_blank" href="http://www.espn.com/esports/story/_/id/17689712/music-producer-dj-steve-aoki-invests-team-rogue">
+            <img style={{width: '100%'}} src="http://i.imgur.com/jqT50bN.jpg"/>
+          </a>
+          <img src="http://placehold.it/1120x450"/>
 
         </Slider>
       </div>
