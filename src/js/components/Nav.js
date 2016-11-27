@@ -22,7 +22,7 @@ export default class Nav extends Component {
         <header><Link to="/"><img src={mainLogo} className="logo"/></Link>
           <ul>
 						<li className="dropdown">
-							<button className="dropbtn">TEAMS<FontAwesome name="angle-down"/></button>
+							<button className="dropbtn">TEAMS<FontAwesome className="down-arrow" name="angle-down"/></button>
 							<div className="dropdown-content">
 								<Link to="/overwatch" style={{transform: 'none'}}><img src={overwatchLogo} className="overwatch-logo"/></Link>
 								<Link to="/csgo" style={{transform: 'none'}}><img src={csgoLogo} className="csgo-logo"/></Link>

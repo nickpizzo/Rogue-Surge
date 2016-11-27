@@ -3,6 +3,8 @@ import { Link } from 'react-router';
 import { stack as Menu } from 'react-burger-menu';
 import Radium from 'radium';
 
+import '../../css/partials/mobile-nav.scss';
+
 import owSmall from '../../img/overwatch-small-logo.svg';
 import csgoSmall from '../../img/csgo-small-logo.svg';
 

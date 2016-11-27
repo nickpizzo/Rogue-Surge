@@ -19,4 +19,4 @@ ReactDOM.render(
     </Route>
 
   </Router>
-  , document.querySelector('.main'));
+  , document.getElementById('root'));

@@ -65,100 +65,33 @@ header {
     font-size: 1.3em;
     color: white;
     border: none;
-    cursor: pointer;
     padding: 0 25px;
+
   }
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    top: 110px;
-    left: 32px;
-    transform: skewX(25deg);
-    a {
-      padding: 25px 14px;
-    }
+  display: none;
+  position: absolute;
+  top: 110px;
+  left: 32px;
+  transform: skewX(25deg);
+  a {
+    padding: 25px 14px;
+  }
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
-    background-color: #373A46;
-    border: 2px solid white;
+  display: block;
+  background-color: #373A46;
+  border: 2px solid white;
 }
 
-// Mobile Nav Styles
-
-.bm-burger-button {
-  position: absolute;
-  width: 36px;
-  height: 30px;
-  right: 36px;
-  top: 36px;
+.dropdown:hover .fa-angle-down {
+  color: $logodarkorange !important;
 }
 
-.bm-burger-bars {
-  background: white;
-}
 
-.bm-cross-button {
-  height: 35px;
-  width: 35px;
-  button {
-    cursor: pointer;
-  }
-}
-
-.bm-cross {
-  background: #bdc3c7;
-  cursor: pointer;
-
-}
-
-.bm-menu {
-  font-family: 'Russo One', sans-serif;
-  background: #373a47;
-  padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
-  overflow-y: hidden;
-
-  .menu-item {
-    display: inline;
-    text-decoration: none;
-    color: white;
-    color: $logolightblue;
-    padding: 19px 0;
-    cursor: pointer;
-  }
-}
-
-.bm-morph-shape {
-  fill: #373a47;
-}
-
-.bm-item-list {
-  color: #b8b7ad;
-  padding: 0.8em;
-  height: auto !important;
-  padding: 0 !important;
-}
-
-.bm-over-lay {
-background: rgba(0, 0, 0, 0.3);
-}
-
-.bm-menu-wrap {
-  position: absolute;
-}
-
-.mobile-nav-item {
-  text-decoration: none;
-  color: $logolightblue;
-}
-
-.mobile-nav {
-  display: none;
-}
 
 @media screen and (max-width: $main-break) {
   .mobile-nav {
@@ -168,6 +101,10 @@ background: rgba(0, 0, 0, 0.3);
     .logo {
       width: 130px;
       left: -3px;
+    }
+
+    .dropdown-content {
+      display: none !important;
     }
 
     ul {
