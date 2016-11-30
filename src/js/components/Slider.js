@@ -1,5 +1,4 @@
-import React from 'react';
-import { Component } from 'react';
+import React, { Component } from 'react';
 import Slider from 'react-slick';
 
 import '../../css/partials/landing-slider.scss';
@@ -27,7 +26,7 @@ export default class LandingSlider extends Component {
        infinite: true,
        speed: 1000,
        autoplay: true,
-       autoplaySpeed: 5000,
+       autoplaySpeed: 6000,
        nextArrow: <NextArrow />,
        prevArrow: <PrevArrow />
      };
@@ -39,9 +38,11 @@ export default class LandingSlider extends Component {
             <img style={{width: '100%'}} src="http://i.imgur.com/bFP85w9.jpg"/>
           </a>
           <a target="_blank" href="http://www.espn.com/esports/story/_/id/17689712/music-producer-dj-steve-aoki-invests-team-rogue">
-            <img style={{width: '100%'}} src="http://i.imgur.com/jqT50bN.jpg"/>
+            <img style={{width: '100%'}} src="http://i.imgur.com/OeBp3dn.jpg"/>
           </a>
-          <img src="http://placehold.it/1120x450"/>
+          <a target="_blank" href="http://www.espn.com/esports/story/_/id/17689712/music-producer-dj-steve-aoki-invests-team-rogue">
+            <img style={{width: '100%'}} src="http://i.imgur.com/pV4r7OF.jpg"/>
+          </a>
 
         </Slider>
       </div>

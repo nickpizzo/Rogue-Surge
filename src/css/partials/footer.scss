@@ -5,9 +5,6 @@
   color: white;
   &:hover {
     color: #989898;
-    //  background: -webkit-gradient(linear, left center, right center, from(#40c9ed), to(#a5daee));
-    // -webkit-background-clip: text;
-    // -webkit-text-fill-color: transparent;
   }
 }
 
@@ -23,51 +20,9 @@
     text-decoration: none;
     color: white;
     &:hover {
+      cursor: pointer;
       color: #989898;
     }
-
-  }
-}
-
-#modal-container {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,0,0.8);
-	justify-content: center;
-	align-items: center;
-	display: flex;
-  z-index: 2;
-
-  .modal {
-  	width: 40%;
-  	background: black;
-  	padding: 40px;
-    border: 2px solid #888;
-  	display: flex;
-    justify-content: inherit;
-    color: white;
-    font-size: 1.5em;
-    align-items: center;
-
-    a {
-      color: $logolightblue;
-      flex-grow: 2;
-    }
-  }
-
-  &:not(:target) {
-    opacity: 0;
-  	visibility: hidden;
-  	transition: opacity 1s, visibility 1s;
-  }
-
-  &target {
-    opacity: 1;
-  	visibility: visible;
-  	transition: opacity 1s, visibility 1s;
   }
 }
 
@@ -75,24 +30,10 @@
   .footer-icon {
     margin: 50px 30px 50px 0;
   }
-
-  #modal-container {
-    .modal {
-      font-size: 1.2em;
-      width: 70%;
-    }
-  }
 }
 
 @media screen and (max-width: $secondary-break) {
   .footer-icon {
     margin: 50px 20px 50px 0;
-  }
-
-  #modal-container {
-    .modal {
-      font-size: 1.2em;
-      width: 70%;
-    }
   }
 }
