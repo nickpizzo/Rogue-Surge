@@ -38,9 +38,6 @@ export default class LandingSlider extends Component {
             <img style={{width: '100%'}} src="http://i.imgur.com/bFP85w9.jpg"/>
           </a>
           <a target="_blank" href="http://www.espn.com/esports/story/_/id/17689712/music-producer-dj-steve-aoki-invests-team-rogue">
-            <img style={{width: '100%'}} src="http://i.imgur.com/OeBp3dn.jpg"/>
-          </a>
-          <a target="_blank" href="http://www.espn.com/esports/story/_/id/17689712/music-producer-dj-steve-aoki-invests-team-rogue">
             <img style={{width: '100%'}} src="http://i.imgur.com/pV4r7OF.jpg"/>
           </a>
 
